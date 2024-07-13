@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+
+#highlights {
+    margin-top: 2rem; 
+}
+
+#highlights h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.highlight-category {
+    margin-bottom: 2rem;
+}
+
+.highlight-category h3 {
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+}
+
+.highlight-item {
+    margin-bottom: 1rem;
+}
+
+
+#highlights h3 {
+    font-size: 1.5em; 
+    margin-top: 1.5rem; 
+}
+.responsive-img {
+    width: 50%; 
+    max-width: 400px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.highlight-image {
+    width: 30%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-bottom: 2rem; 
+}
+
